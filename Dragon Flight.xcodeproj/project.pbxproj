@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F23694D1ECA296100DA2864 /* EntityIds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F23694C1ECA296100DA2864 /* EntityIds.swift */; };
+		1F51F85E1EBD4B11008EB01F /* Dragon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F51F85D1EBD4B11008EB01F /* Dragon.swift */; };
+		1F51F8601EBD4D45008EB01F /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F51F85F1EBD4D45008EB01F /* Entity.swift */; };
+		1F51F8621EBD55BF008EB01F /* EntityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F51F8611EBD55BF008EB01F /* EntityData.swift */; };
+		1F6189231EC79CF50020CE69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6189221EC79CF50020CE69 /* Assets.xcassets */; };
+		1F9502461EBBD319000AC9BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9502451EBBD319000AC9BC /* AppDelegate.swift */; };
+		1F9502481EBBD319000AC9BC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1F9502471EBBD319000AC9BC /* GameScene.sks */; };
+		1F95024A1EBBD319000AC9BC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1F9502491EBBD319000AC9BC /* Actions.sks */; };
+		1F95024C1EBBD319000AC9BC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95024B1EBBD319000AC9BC /* GameScene.swift */; };
+		1F95024E1EBBD319000AC9BC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95024D1EBBD319000AC9BC /* GameViewController.swift */; };
+		1F9502511EBBD319000AC9BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F95024F1EBBD319000AC9BC /* Main.storyboard */; };
+		1F9502561EBBD319000AC9BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9502541EBBD319000AC9BC /* LaunchScreen.storyboard */; };
+		1F9502611EBBD31A000AC9BC /* Dragon_FlightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9502601EBBD31A000AC9BC /* Dragon_FlightTests.swift */; };
+		1F95026C1EBBD31A000AC9BC /* Dragon_FlightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95026B1EBBD31A000AC9BC /* Dragon_FlightUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F95025D1EBBD31A000AC9BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F95023A1EBBD319000AC9BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9502411EBBD319000AC9BC;
+			remoteInfo = "Dragon Flight";
+		};
+		1F9502681EBBD31A000AC9BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F95023A1EBBD319000AC9BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9502411EBBD319000AC9BC;
+			remoteInfo = "Dragon Flight";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F23694C1ECA296100DA2864 /* EntityIds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityIds.swift; sourceTree = "<group>"; };
+		1F51F85D1EBD4B11008EB01F /* Dragon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dragon.swift; sourceTree = "<group>"; };
+		1F51F85F1EBD4D45008EB01F /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		1F51F8611EBD55BF008EB01F /* EntityData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityData.swift; sourceTree = "<group>"; };
+		1F6189221EC79CF50020CE69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F9502421EBBD319000AC9BC /* Dragon Flight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dragon Flight.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9502451EBBD319000AC9BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F9502471EBBD319000AC9BC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1F9502491EBBD319000AC9BC /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		1F95024B1EBBD319000AC9BC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		1F95024D1EBBD319000AC9BC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1F9502501EBBD319000AC9BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F9502551EBBD319000AC9BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F9502571EBBD319000AC9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F95025C1EBBD31A000AC9BC /* Dragon FlightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dragon FlightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9502601EBBD31A000AC9BC /* Dragon_FlightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dragon_FlightTests.swift; sourceTree = "<group>"; };
+		1F9502621EBBD31A000AC9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9502671EBBD31A000AC9BC /* Dragon FlightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dragon FlightUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F95026B1EBBD31A000AC9BC /* Dragon_FlightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dragon_FlightUITests.swift; sourceTree = "<group>"; };
+		1F95026D1EBBD31A000AC9BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F95023F1EBBD319000AC9BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9502591EBBD31A000AC9BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9502641EBBD31A000AC9BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F1FB3A41EC69F96007ED05B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				1F51F85F1EBD4D45008EB01F /* Entity.swift */,
+				1F51F8611EBD55BF008EB01F /* EntityData.swift */,
+				1F23694C1ECA296100DA2864 /* EntityIds.swift */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		1F9502391EBBD319000AC9BC = {
+			isa = PBXGroup;
+			children = (
+				1F9502441EBBD319000AC9BC /* Dragon Flight */,
+				1F95025F1EBBD31A000AC9BC /* Dragon FlightTests */,
+				1F95026A1EBBD31A000AC9BC /* Dragon FlightUITests */,
+				1F9502431EBBD319000AC9BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F9502431EBBD319000AC9BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F9502421EBBD319000AC9BC /* Dragon Flight.app */,
+				1F95025C1EBBD31A000AC9BC /* Dragon FlightTests.xctest */,
+				1F9502671EBBD31A000AC9BC /* Dragon FlightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F9502441EBBD319000AC9BC /* Dragon Flight */ = {
+			isa = PBXGroup;
+			children = (
+				1F9502451EBBD319000AC9BC /* AppDelegate.swift */,
+				1F9502471EBBD319000AC9BC /* GameScene.sks */,
+				1F9502491EBBD319000AC9BC /* Actions.sks */,
+				1F95024B1EBBD319000AC9BC /* GameScene.swift */,
+				1F51F85D1EBD4B11008EB01F /* Dragon.swift */,
+				1F1FB3A41EC69F96007ED05B /* Entity */,
+				1F95024D1EBBD319000AC9BC /* GameViewController.swift */,
+				1F95024F1EBBD319000AC9BC /* Main.storyboard */,
+				1F6189221EC79CF50020CE69 /* Assets.xcassets */,
+				1F9502541EBBD319000AC9BC /* LaunchScreen.storyboard */,
+				1F9502571EBBD319000AC9BC /* Info.plist */,
+			);
+			path = "Dragon Flight";
+			sourceTree = "<group>";
+		};
+		1F95025F1EBBD31A000AC9BC /* Dragon FlightTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F9502601EBBD31A000AC9BC /* Dragon_FlightTests.swift */,
+				1F9502621EBBD31A000AC9BC /* Info.plist */,
+			);
+			path = "Dragon FlightTests";
+			sourceTree = "<group>";
+		};
+		1F95026A1EBBD31A000AC9BC /* Dragon FlightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F95026B1EBBD31A000AC9BC /* Dragon_FlightUITests.swift */,
+				1F95026D1EBBD31A000AC9BC /* Info.plist */,
+			);
+			path = "Dragon FlightUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F9502411EBBD319000AC9BC /* Dragon Flight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9502701EBBD31A000AC9BC /* Build configuration list for PBXNativeTarget "Dragon Flight" */;
+			buildPhases = (
+				1F95023E1EBBD319000AC9BC /* Sources */,
+				1F95023F1EBBD319000AC9BC /* Frameworks */,
+				1F9502401EBBD319000AC9BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dragon Flight";
+			productName = "Dragon Flight";
+			productReference = 1F9502421EBBD319000AC9BC /* Dragon Flight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F95025B1EBBD31A000AC9BC /* Dragon FlightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9502731EBBD31A000AC9BC /* Build configuration list for PBXNativeTarget "Dragon FlightTests" */;
+			buildPhases = (
+				1F9502581EBBD31A000AC9BC /* Sources */,
+				1F9502591EBBD31A000AC9BC /* Frameworks */,
+				1F95025A1EBBD31A000AC9BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F95025E1EBBD31A000AC9BC /* PBXTargetDependency */,
+			);
+			name = "Dragon FlightTests";
+			productName = "Dragon FlightTests";
+			productReference = 1F95025C1EBBD31A000AC9BC /* Dragon FlightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F9502661EBBD31A000AC9BC /* Dragon FlightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9502761EBBD31A000AC9BC /* Build configuration list for PBXNativeTarget "Dragon FlightUITests" */;
+			buildPhases = (
+				1F9502631EBBD31A000AC9BC /* Sources */,
+				1F9502641EBBD31A000AC9BC /* Frameworks */,
+				1F9502651EBBD31A000AC9BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F9502691EBBD31A000AC9BC /* PBXTargetDependency */,
+			);
+			name = "Dragon FlightUITests";
+			productName = "Dragon FlightUITests";
+			productReference = 1F9502671EBBD31A000AC9BC /* Dragon FlightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F95023A1EBBD319000AC9BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = HighWindLabs;
+				TargetAttributes = {
+					1F9502411EBBD319000AC9BC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					1F95025B1EBBD31A000AC9BC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F9502411EBBD319000AC9BC;
+					};
+					1F9502661EBBD31A000AC9BC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F9502411EBBD319000AC9BC;
+					};
+				};
+			};
+			buildConfigurationList = 1F95023D1EBBD319000AC9BC /* Build configuration list for PBXProject "Dragon Flight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F9502391EBBD319000AC9BC;
+			productRefGroup = 1F9502431EBBD319000AC9BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F9502411EBBD319000AC9BC /* Dragon Flight */,
+				1F95025B1EBBD31A000AC9BC /* Dragon FlightTests */,
+				1F9502661EBBD31A000AC9BC /* Dragon FlightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F9502401EBBD319000AC9BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9502511EBBD319000AC9BC /* Main.storyboard in Resources */,
+				1F9502481EBBD319000AC9BC /* GameScene.sks in Resources */,
+				1F9502561EBBD319000AC9BC /* LaunchScreen.storyboard in Resources */,
+				1F95024A1EBBD319000AC9BC /* Actions.sks in Resources */,
+				1F6189231EC79CF50020CE69 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F95025A1EBBD31A000AC9BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9502651EBBD31A000AC9BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F95023E1EBBD319000AC9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F51F8601EBD4D45008EB01F /* Entity.swift in Sources */,
+				1F51F85E1EBD4B11008EB01F /* Dragon.swift in Sources */,
+				1F51F8621EBD55BF008EB01F /* EntityData.swift in Sources */,
+				1F95024C1EBBD319000AC9BC /* GameScene.swift in Sources */,
+				1F95024E1EBBD319000AC9BC /* GameViewController.swift in Sources */,
+				1F9502461EBBD319000AC9BC /* AppDelegate.swift in Sources */,
+				1F23694D1ECA296100DA2864 /* EntityIds.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9502581EBBD31A000AC9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9502611EBBD31A000AC9BC /* Dragon_FlightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9502631EBBD31A000AC9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F95026C1EBBD31A000AC9BC /* Dragon_FlightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F95025E1EBBD31A000AC9BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F9502411EBBD319000AC9BC /* Dragon Flight */;
+			targetProxy = 1F95025D1EBBD31A000AC9BC /* PBXContainerItemProxy */;
+		};
+		1F9502691EBBD31A000AC9BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F9502411EBBD319000AC9BC /* Dragon Flight */;
+			targetProxy = 1F9502681EBBD31A000AC9BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F95024F1EBBD319000AC9BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9502501EBBD319000AC9BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F9502541EBBD319000AC9BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9502551EBBD319000AC9BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F95026E1EBBD31A000AC9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F95026F1EBBD31A000AC9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F9502711EBBD31A000AC9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dragon Flight/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jarred.Dragon-Flight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1F9502721EBBD31A000AC9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Dragon Flight/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jarred.Dragon-Flight";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1F9502741EBBD31A000AC9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dragon FlightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jarred.Dragon-FlightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dragon Flight.app/Dragon Flight";
+			};
+			name = Debug;
+		};
+		1F9502751EBBD31A000AC9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Dragon FlightTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jarred.Dragon-FlightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dragon Flight.app/Dragon Flight";
+			};
+			name = Release;
+		};
+		1F9502771EBBD31A000AC9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Dragon FlightUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jarred.Dragon-FlightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Dragon Flight";
+			};
+			name = Debug;
+		};
+		1F9502781EBBD31A000AC9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Dragon FlightUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jarred.Dragon-FlightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Dragon Flight";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F95023D1EBBD319000AC9BC /* Build configuration list for PBXProject "Dragon Flight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F95026E1EBBD31A000AC9BC /* Debug */,
+				1F95026F1EBBD31A000AC9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9502701EBBD31A000AC9BC /* Build configuration list for PBXNativeTarget "Dragon Flight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9502711EBBD31A000AC9BC /* Debug */,
+				1F9502721EBBD31A000AC9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9502731EBBD31A000AC9BC /* Build configuration list for PBXNativeTarget "Dragon FlightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9502741EBBD31A000AC9BC /* Debug */,
+				1F9502751EBBD31A000AC9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9502761EBBD31A000AC9BC /* Build configuration list for PBXNativeTarget "Dragon FlightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9502771EBBD31A000AC9BC /* Debug */,
+				1F9502781EBBD31A000AC9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F95023A1EBBD319000AC9BC /* Project object */;
+}
