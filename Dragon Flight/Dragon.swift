@@ -23,14 +23,3 @@ struct Dragon {
     ]
 }
 
-
-//    let babyImage = UIImage(named: "")
-//    var babyTexture: SKTexture {
-//        guard let cBabyImage = self.babyImage else {
-//            return SKTexture()
-//        }
-//        return SKTexture(image: cBabyImage)
-//    }
-//    let babyInitColor = UIColor.clear
-//    let babyFinalColor = UIColor.white
-//    let babyName = "baby"

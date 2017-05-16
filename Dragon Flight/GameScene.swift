@@ -18,7 +18,7 @@ class GameScene: SKScene {
         
         let newEntityData = EntityData(data: Dragon().entityData)
         
-        let newEntity = Entity(entityData: newEntityData)
+        var newEntity = Entity(entityData: newEntityData)
         
         self.addChild(newEntity.spriteNode)
         
